@@ -1,0 +1,105 @@
+/* Custom animations for cards 5 and 6 */
+
+/* Card 5 hover animations */
+[data-card-5="card-5"]:hover [data-card-5="blur-5"] {
+    opacity: 1;
+    transition: opacity 0.1s ease-in;
+}
+
+[data-card-5="card-5"]:hover [data-card-5="image-5"] {
+    transform: scale(1.05);
+    transition: transform 0.6s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+[data-card-5="card-5"]:hover [data-card-5="video-5"] {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550) 0.1s, 
+                transform 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550) 0.1s;
+}
+
+[data-card-5="card-5"]:hover [data-card-5="text-top-5"] {
+    opacity: 1;
+    transform: translateY(0%);
+    transition: opacity 0.5s cubic-bezier(0.215, 0.610, 0.355, 1) 0.2s,
+                transform 0.5s cubic-bezier(0.215, 0.610, 0.355, 1) 0.2s;
+}
+
+[data-card-5="card-5"]:hover [data-card-5="text-bottom-5"] {
+    opacity: 1;
+    transform: translateY(0%);
+    transition: opacity 0.5s cubic-bezier(0.215, 0.610, 0.355, 1) 0.2s,
+                transform 0.5s cubic-bezier(0.215, 0.610, 0.355, 1) 0.2s;
+}
+
+/* Card 5 default states */
+[data-card-5="blur-5"] {
+    opacity: 0;
+}
+
+[data-card-5="video-5"] {
+    opacity: 0;
+    transform: scale(0.5);
+}
+
+[data-card-5="text-top-5"] {
+    opacity: 0;
+    transform: translateY(-50%);
+}
+
+[data-card-5="text-bottom-5"] {
+    opacity: 0;
+    transform: translateY(50%);
+}
+
+/* Card 6 hover animations */
+[data-card-6="card-6"]:hover [data-card-6="blur-6"] {
+    opacity: 1;
+    transition: opacity 0.1s ease-in;
+}
+
+[data-card-6="card-6"]:hover [data-card-6="image-6"] {
+    transform: scale(1.05);
+    transition: transform 0.6s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+[data-card-6="card-6"]:hover [data-card-6="video-6"] {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550) 0.1s, 
+                transform 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550) 0.1s;
+}
+
+[data-card-6="card-6"]:hover [data-card-6="text-top-6"] {
+    opacity: 1;
+    transform: translateY(0%);
+    transition: opacity 0.5s cubic-bezier(0.215, 0.610, 0.355, 1) 0.2s,
+                transform 0.5s cubic-bezier(0.215, 0.610, 0.355, 1) 0.2s;
+}
+
+[data-card-6="card-6"]:hover [data-card-6="text-bottom-6"] {
+    opacity: 1;
+    transform: translateY(0%);
+    transition: opacity 0.5s cubic-bezier(0.215, 0.610, 0.355, 1) 0.2s,
+                transform 0.5s cubic-bezier(0.215, 0.610, 0.355, 1) 0.2s;
+}
+
+/* Card 6 default states */
+[data-card-6="blur-6"] {
+    opacity: 0;
+}
+
+[data-card-6="video-6"] {
+    opacity: 0;
+    transform: scale(0.5);
+}
+
+[data-card-6="text-top-6"] {
+    opacity: 0;
+    transform: translateY(-50%);
+}
+
+[data-card-6="text-bottom-6"] {
+    opacity: 0;
+    transform: translateY(50%);
+}
